@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#contenedor{
+    width:100%;
+    max-width: 1440px;
+}
+
+#encabezado{
+    background-color: #303030;
+    color: #FFFFFF;
+    width: 100%;
+    height: 475px;
+}
+
+#titulo-menu-superior{
+    display: flex;
+    font-size: 60px;
+    padding-top: 13%;
+    margin-left: 4.5%;
+}
+
+#subtitulo-menu-superior{
+    font-size: 20px;
+    font-weight: inherit;
+    margin-left: 4.5%;
+    margin-top: 2%;
+}
+
+@media screen and (max-width:745px){
+    #titulo-menu-superior{
+        text-align: center;
+        font-size: 50px;
+    }
+    #subtitulo-menu-superior{
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:425px){
+    #titulo-menu-superior{
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:357px){
+    #subtitulo-menu-superior{
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:319px){
+    #titulo-menu-superior{
+        font-size:35px;
+    }
+    #subtitulo-menu-superior{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:221px){
+    #titulo-menu-superior{
+        font-size:25px
+    }
+    #subtitulo-menu-superior{
+        font-size: 9px;
+    }
+}
+
+#submenu{
+    background-color: #F9F9F9;
+    height:auto; 
+}
+
+#info-submenu{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: center;
+}
+
+.texto-submenu{
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.texto-submenu h3{
+    font-size: 40px;
+}
+
+.texto-submenu p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 908px){
+    .texto-submenu h3{
+        font-size: 35px;
+    }
+    .texto-submenu p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 676px){
+    .texto-submenu h3{
+        font-size: 30px;
+    }
+    .texto-submenu p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    #info-submenu{
+        display: table;
+        width: 100%;
+    }
+}
+.cuerpo{
+    display:flex;
+    justify-content: space-evenly;
+}
+.article-cuerpo{
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.article-cuerpo h1{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 14%;
+}
+
+.article-cuerpo p{
+    font-size:18.45px;
+    font-weight: 300;
+}
+
+.imagen{
+    padding: 7% 2% 7% 1%;
+}
+
+@media screen and (max-width:1095px){
+    
+    .cuerpo{
+        display: flex;
+        justify-content: center;
+    }
+    .imagen{
+        width: 310px;
+        height: 205;
+    }
+    .article-cuerpo{
+        padding-top: 15%;
+        width: 580px;
+    }
+}
+
+@media screen and (max-width:889px){
+    .article-cuerpo h1{
+        font-size:25px;
+        padding-bottom: 7%;
+    }
+    .article-cuerpo p{
+        font-size: 16px;
+    }
+    .article-cuerpo{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:820px){
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-cuerpo{
+        padding-top:12%;
+    }
+}
+
+@media screen and (max-width:494px){
+    .article-cuerpo{
+        width: 100%
+    }
+    .imagen{
+        width: 270px;
+    }
+}
+
+#formulario{
+    background-color:#303030;
+    text-align: center;
+}
+#formulario h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top:7%;
+}
+input{
+    font-size:24px;
+    font-weight: 700;
+    width: 508px;
+    height: 72px;
+    border:0px;
+    border-radius: 10px;
+    margin: 3.5% 0%;
+    padding-left:30px;
+}
+input::placeholder{
+    color:rgba(0, 0, 0, 0.3);
+}
+button{
+    background-color:#C07212;
+    color: #FFFFFF;
+    font-size:30px;
+    font-weight: 700;
+    width: 286px;
+    height: 74px;
+    border:0px;
+    border-radius: 10px;
+    margin-bottom:7%;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    background-color: rgb(214, 124, 15);
+    box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.247);
+}
+
+@media screen and (max-width:608px){
+    #formulario h1{
+        width: 100%
+    }
+    input{
+        font-size:19px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:320px){
+    input{
+        font-size:15px;
+        width: 80%;
+    }
+    button{
+        width:246px;
+        height: 70px;
+        font-size:25px;
+    }
+}
