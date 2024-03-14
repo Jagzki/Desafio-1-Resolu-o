@@ -1,5 +1,6 @@
 # Desafio-1-Resolu-o
 Link do site disponibilizado:https://arquiteturabyjose.netlify.app/
+
 Link da planilha de registro de informacão:https://docs.google.com/spreadsheets/d/1jnxHFuXUoIKIJsJC79pQjcQGfR6zxItC8Heypyu6tvo/edit?usp=sharing
 
 Esta es mi primera página hecha de manera individual, fue parte del primer desafio del curso de Desenvolvedor Front-end de la escuela DNC.
