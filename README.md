@@ -1,13 +1,11 @@
-# Desafio-1-Resolu-o
+# Landing-Page-Arquitetura
 Link do site disponibilizado:https://arquiteturabyjose.netlify.app/
 
-Link da planilha de registro de informacão:https://docs.google.com/spreadsheets/d/1jnxHFuXUoIKIJsJC79pQjcQGfR6zxItC8Heypyu6tvo/edit?usp=sharing
+Esta página faz parte da minha prática como Desenvolvedor Front-end, é uma página de uma empresa de arquitetura fictícia.
+Nesta página foram utilizados HTML e CSS, ampliei meus conhecimentos de como fazer um site Responsivo, ou seja, adaptável a todos os dispositivos e também continuei ampliando meus conhecimentos de HTML e CSS.
 
-Esta es mi primera página hecha de manera individual, fue parte del primer desafio del curso de Desenvolvedor Front-end de la escuela DNC.
-Tambien me tome el tiempo de hacerla adaptable a todos los dispositivos.
+Esta página hace parte de mi práctica como Desenvolvedor Front-end, es una página de una empresa de arquitectura fictisia.
+En esta página se utilizo HTML y CSS, amplie mis conocimientos de como hacer un sitio web Responsive, es decir, adaptable a todos los dispositivos y tambien continue ampliando mis conocimientos en HTML y CSS.
 
-Esta é a minha primera página de desenvolvimento individual, foi parte do primer desafio do curso Desenvolvedor Front-end da escola DNC.
-Também reservei um tempo para torná-lo adaptável a todos os dispositivos.
-
-This is my first individual development page, it was part of the first challenge of the Front-end Developer course at the DNC school.
-It also takes me the time to make it adaptable to all devices.
+This page is part of my practice as a Front-end Developer, it is a page for a fictitious architecture company.
+HTML and CSS were used on this page, I expanded my knowledge of how to make a Responsive website, that is, adaptable to all devices and also continued to expand my knowledge of HTML and CSS.
